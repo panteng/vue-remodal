@@ -31,7 +31,7 @@ A custom directive for using [Remodal](http://vodkabears.github.io/remodal/) in 
         
     You may notice we add a `v-remodal` directive to the `div` and assign a string value - `demoModal` to it.
     
-4. Now in the scope (or called the vm), you can get the instanse of this moday by call `this.$modals.demoModal`. You can call any methods of Remodal on this instanse. For example:
+4. Now in the scope (or called the vm), you can get the instanse of this modal by `this.$modals.demoModal`. You can call any methods of Remodal on this instanse. For example:
 
         var vm = this;
     
