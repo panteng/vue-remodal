@@ -9,7 +9,7 @@ module.exports = {
     bind: function () {
         var _this = this;
 
-        _this.instanse = $(_this.el).remodal({
+        _this.instance = $(_this.el).remodal({
             hashTracking: false
         });
 
@@ -17,7 +17,7 @@ module.exports = {
             _this.vm.$modals = {};
         }
 
-        _this.vm.$modals[_this.expression] = _this.instanse;
+        _this.vm.$modals[_this.expression] = _this.instance;
     },
     unbind: function () {
         var _this = this;
