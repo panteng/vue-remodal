@@ -1,6 +1,6 @@
 {
   "name": "vue-remodal",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A custom directive for using Remodal in Vue.js apps.",
   "scripts": {
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot",
@@ -10,13 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/panteng/vue-remodal.git"
   },
-  "author": "Chris Pan <panteng@outlook.com> (http://panteng.me)",
+  "author": "Chris Pan <mail@panteng.me> (http://panteng.me)",
   "license": "MIT",
   "dependencies": {
     "jquery": "^2.2.3",
     "remodal": "^1.0.7",
-    "vue": "^1.0.21",
-    "vue-router": "^0.7.13"
+    "vue": "^1.0.21"
   },
   "devDependencies": {
     "css-loader": "^0.23.1",

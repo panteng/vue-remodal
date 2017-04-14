@@ -8,12 +8,12 @@ A custom directive for using [Remodal](http://vodkabears.github.io/remodal/) in 
 
 ## Usage
 
-1. Download this repo and copy file `./src/directives/remodal.js` into your project.
+1. Download this repo and copy file `directives/remodal.js` into your project.
 
 2. Register Vue-Remodal as a directive in your `main.js`:
 
         // main.js
-        Vue.directive('remodal', require('./directives/remodal'));  //  your project structure may be different from mine, so feel free to change the path of `remodal.js`.
+        Vue.directive('remodal', require('./directives/remodal'));
         
 3. Vue-Remodal need a dom element as the modal dialog. For example:
 
@@ -31,7 +31,7 @@ A custom directive for using [Remodal](http://vodkabears.github.io/remodal/) in 
         
     You may notice we add a `v-remodal` directive to the `div` and assign a string value - `demoModal` to it.
     
-4. Now in the scope (or called the vm), you can get the instanse of this modal by `this.$modals.demoModal`. You can call any methods of Remodal on this instanse. For example:
+4. Now in the scope, you can get the instanse of this modal by `this.$modals.demoModal`. You can call any methods of Remodal on this instanse. For example:
 
         var vm = this;
     
