@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/panteng/vue-remodal.git"
   },
-  "author": "Chris Pan <mail@panteng.me> (http://panteng.me)",
+  "author": "Chris Pan",
   "license": "MIT",
   "dependencies": {
     "jquery": "^2.2.3",
